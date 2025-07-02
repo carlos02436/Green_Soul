@@ -1,16 +1,4 @@
-/**
-* Template Name: Dewi
-* Template URL: https://bootstrapmade.com/dewi-free-multi-purpose-html-template/
-* Updated: Aug 07 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# Font & Color Variables
-# Help: https://bootstrapmade.com/color-system/
---------------------------------------------------------------*/
-/* Fonts */
+/* fuentes */
 :root {
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --heading-font: "Raleway",  sans-serif;
@@ -1844,4 +1832,21 @@ section,
   font-size: 20px;
   margin-right: 8px;
   color: var(--accent-color);
+}
+
+/* Responsive del titulo y del Botón Explora Colombia */
+@media (max-width: 575px) {
+  .header .cta-btn {
+    font-size: 11px;
+    padding: 5px 14px;
+    margin-left: 10px;
+  }
+  .header .logo h1,
+  .header .sitename {
+    font-size: 20px;
+  }
+  .header .logo img {
+    max-height: 28px;
+    margin-right: 4px;
+  }
 }
