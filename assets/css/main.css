@@ -1840,6 +1840,13 @@ section,
     font-size: 11px;
     padding: 5px 14px;
     margin-left: 10px;
+    /* Desactiva el efecto de crecimiento al dar clic */
+    transition: none !important;
+    transform: none !important;
+  }
+  .header .cta-btn:active {
+    transition: none !important;
+    transform: none !important;
   }
   .header .logo h1,
   .header .sitename {
